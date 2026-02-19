@@ -1,4 +1,4 @@
-// api/scan.js - Deploy to Vercel as serverless function
+  // api/scan.js - Deploy to Vercel as serverless function
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
